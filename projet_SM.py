@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 21 17:04:57 2023
-
-@author: elsat
-"""
-
 import numpy as np 
 import scipy.fft as sc
 import matplotlib.pyplot as plt
