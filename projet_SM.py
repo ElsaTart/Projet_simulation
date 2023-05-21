@@ -87,34 +87,30 @@ def amplitude (valeurs_L, nu) :
     plt.title(f"Amplitude de u selon la valeurs de L avec ν = {nu}")
         
 
-
-""" 
-voici les différentes lignes de lacements pour obtenir tous les graphs qui sont dans le rapport
+# Voici les différentes lignes de lancement pour obtenir tous les graphes qui sont dans le rapport :
 
 # La figure qu'on devait refaire
 calcul_u() 
 
-# les plot qui font le même figure que celle qu'on devait reproduire mais en changeant la viscosité
+# Les plot qui donnent la même figure que celle qu'on devait reproduire mais en changeant la viscosité
 calcul_u(nu =2)
 calcul_u(nu =3)
 
-# les graphiques mettant en avant le fait qu en dessous Lcritique, la solution tend vers 0
+# Les graphiques mettant en avant le fait qu'en dessous de L_critique, la solution tend vers 0
 
 # pour nu =1
 calcul_u(nu = 1, L = 6)
 calcul_u(nu = 1, L = 6.25)
 
 # pour nu =2
-
 calcul_u(nu = 2, L = 8.25)
 calcul_u(nu = 2, L = 8.75)
 
 # pour nu =3
-
 calcul_u(nu = 3, L = 10.25)
 calcul_u(nu = 3, L = 10.75)
 
-# on va refaire les 4 figures:
+# On va refaire les 4 figures:
     
 # Figure 1
 calcul_u(nu = 1, L = 10)
@@ -129,26 +125,20 @@ calcul_u(nu =1, L =30)
 calcul_u(nu =1, L =40)
 
 
-# mise en avant de la solution triviale pour L = 100
+# Mise en avant de la solution triviale pour L = 100
 
 calcul_u(nu =1000, L =100)
 
 
-# Les graphiques d amplitudes :
+# Les graphiques d'amplitudes :
     
 # pour nu = 1
-
 amplitude(liste_L1, 1)
 
 # pour nu = 2
-
 amplitude(liste_L1, 2)
 amplitude(liste_L2, 2)
 
 # pour nu = 3
-
 amplitude(liste_L1, 3)
 amplitude(liste_L2, 3)
-
-
-"""
