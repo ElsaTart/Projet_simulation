@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 11 09:53:10 2023
-
-@author: elsat
-"""
-# projet de bac 3 : simulation numérique
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -606,17 +598,17 @@ def Verlet_9(Q,P,m):
 
 
 
-#Heun_2_non_inertiel (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter")
-#Verlet_2_non_inertiel (Q_s, P_s, m_s,"Soleil", Q_j, P_j, m_j, "Jupiter")
-#Heun_2 (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter")
-#Verlet_2 (Q_s, P_s, m_s,"Soleil", Q_j, P_j, m_j, "Jupiter")
-#Heun_3_non_inertiel (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter", Q_sat, P_sat, m_sat, "Saturne")
-#Verlet_3_non_inertiel (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter", Q_sat, P_sat, m_sat, "Saturne")
-#Heun_3 (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter", Q_sat, P_sat, m_sat, "Saturne")
-#energie_heun(Q_s , P_s, m_s, Q_j, P_j, m_j, Q_sat, P_sat, m_sat)
-#moment_ang_heun(Q_s, P_s, Q_j,P_j, Q_sat, P_sat)
+Heun_2_non_inertiel (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter")
+Verlet_2_non_inertiel (Q_s, P_s, m_s,"Soleil", Q_j, P_j, m_j, "Jupiter")
+Heun_2 (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter")
+Verlet_2 (Q_s, P_s, m_s,"Soleil", Q_j, P_j, m_j, "Jupiter")
+Heun_3_non_inertiel (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter", Q_sat, P_sat, m_sat, "Saturne")
+Verlet_3_non_inertiel (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter", Q_sat, P_sat, m_sat, "Saturne")
+Heun_3 (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter", Q_sat, P_sat, m_sat, "Saturne")
+energie_heun(Q_s , P_s, m_s, Q_j, P_j, m_j, Q_sat, P_sat, m_sat)
+moment_ang_heun(Q_s, P_s, Q_j,P_j, Q_sat, P_sat)
 Verlet_3 (Q_s, P_s, m_s, "Soleil", Q_j, P_j, m_j, "Jupiter", Q_sat, P_sat, m_sat, "Saturne")
 energie_verlet(Q_s , P_s, m_s, Q_j, P_j, m_j, Q_sat, P_sat, m_sat)
 moment_ang_verlet(Q_s, P_s, Q_j,P_j, Q_sat, P_sat)
-#Heun_9 (Q_sys, P_sys, m_sys)
-#Verlet_9 (Q_sys, P_sys, m_sys)
+Heun_9 (Q_sys, P_sys, m_sys)
+Verlet_9 (Q_sys, P_sys, m_sys)
