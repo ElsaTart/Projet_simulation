@@ -92,53 +92,52 @@ def amplitude (valeurs_L, nu) :
 # La figure qu'on devait refaire
 calcul_u() 
 
-# Les plot qui donnent la même figure que celle qu'on devait reproduire mais en changeant la viscosité
+# Les graphiques mettant en avant le fait qu en dessous L_critique, la solution tend vers 0 pour ν = 1
+calcul_u(nu = 1, L = 6.2)
+calcul_u(nu = 1, L = 6.25)
+calcul_u(nu = 1, L = 6.30)
+
+# On va refaire les 4 figures :
+    
+# Figure a
+calcul_u(nu = 1, L = 10)
+
+# Figure b 
+calcul_u(nu =1, L =20)
+
+# Figure c
+calcul_u(nu =1, L =30)
+
+# Figure d
+calcul_u(nu =1, L =40)
+
+# Les plots qui font la même figure que celle qu'on devait reproduire mais en changeant la viscosité
 calcul_u(nu =2)
 calcul_u(nu =3)
 
-# Les graphiques mettant en avant le fait qu'en dessous de L_critique, la solution tend vers 0
+# Les graphiques qui mettent en avant la solution triviale pour d'autres viscosités
 
-# pour nu =1
-calcul_u(nu = 1, L = 6)
-calcul_u(nu = 1, L = 6.25)
-
-# pour nu =2
+# Pour nu = 2 :
 calcul_u(nu = 2, L = 8.25)
 calcul_u(nu = 2, L = 8.75)
 
-# pour nu =3
+# Pour nu = 3 :
 calcul_u(nu = 3, L = 10.25)
 calcul_u(nu = 3, L = 10.75)
 
-# On va refaire les 4 figures:
-    
-# Figure 1
-calcul_u(nu = 1, L = 10)
-
-# Figure 2 
-calcul_u(nu =1, L =20)
-
-# Figure 3
-calcul_u(nu =1, L =30)
-
-# Figure 4
-calcul_u(nu =1, L =40)
-
-
 # Mise en avant de la solution triviale pour L = 100
-
 calcul_u(nu =1000, L =100)
 
 
 # Les graphiques d'amplitudes :
     
-# pour nu = 1
+# Pour nu = 1 :
 amplitude(liste_L1, 1)
 
-# pour nu = 2
+# Pour nu = 2 :
 amplitude(liste_L1, 2)
 amplitude(liste_L2, 2)
 
-# pour nu = 3
+# Pour nu = 3 :
 amplitude(liste_L1, 3)
 amplitude(liste_L2, 3)
